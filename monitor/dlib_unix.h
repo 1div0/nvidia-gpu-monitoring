@@ -1,6 +1,7 @@
 #ifndef _NVIDIA_GPU_MONITOR_DLIB_UNIX_H
 #define _NVIDIA_GPU_MONITOR_DLIB_UNIX_H
 
+#include <string>
 #include <dlfcn.h>
 
 typedef void* dlib_handle_t;
