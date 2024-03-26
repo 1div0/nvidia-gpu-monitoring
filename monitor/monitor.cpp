@@ -35,7 +35,8 @@ int main() {
   std::cout << "\n\n"
             << "Monitoring GPUs with polling period of " << POLLING_PERIOD.count() << "ms"
             << "\n\n\n"
-            << "timestamp_ms,index,fan_speed,temperature,power_usage,gpu_utilization,memory_utilization"
+            << "timestamp_ms,device_index,fan_speed,temperature,power_usage,gpu_utilization,"
+            << "memory_utilization"
             << "\n";
 
   std::chrono::milliseconds timestamp;
