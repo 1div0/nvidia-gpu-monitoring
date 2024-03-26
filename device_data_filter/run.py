@@ -46,7 +46,7 @@ def main() -> None:
     args = args_parser.parse_args()
 
     df = pd.read_csv(args.input_data)
-    df = df[df.device_index == args.device_index]
+    df = df[df["device_index"] == args.device_index]
     df.to_csv(
         path_or_buf=args.output_data,
         sep=',',
